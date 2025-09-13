@@ -32,5 +32,9 @@ public void keyPressed(){
   } else   if(key == '5'){
     pincel.getColorPincel(color(244,219,29));
   }
-
+  if(key == '+'){
+   pincel.getTamaño(1); 
+  } else if( key == '-'){
+    pincel.getTamaño(-1);
+  }
 }

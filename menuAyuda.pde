@@ -13,6 +13,6 @@ public class menuAyuda{
   public void mostrar(){
     textSize(tamañoF);
     fill(colorF);
-  text("1=negro \n2=Rojo \n3=Verde \n4=Azul \n5=amarrilo",pos.x,pos.y);
+  text("1=negro \n2=Rojo \n3=Verde \n4=Azul \n5=amarrilo \n+=aumenta \n-=disminuye",pos.x,pos.y);
   }
 }
